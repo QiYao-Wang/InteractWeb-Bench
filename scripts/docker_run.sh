@@ -6,8 +6,6 @@
 # Image Version: interactweb-bench:v1.0
 # =================================================================
 
-# Define the host machine's project root path for easier path mapping and maintenancePROJECT_PATH="/data/shared/users/wangqiyao/InteractWeb-Bench"
-
 docker run -it --rm \
   --name interactweb_test-qwen-retest \
   --network host \
