@@ -47,13 +47,13 @@ for task_dir in "$ERROR_LOGS_DIR"/*/; do
 
     if [ -d "$ws_target" ]; then
         rm -rf "$ws_target"
-        echo "  🗑️  workspaces/$task_id"
+        echo "  workspaces/$task_id"
         deleted_ws=$((deleted_ws + 1))
     fi
 done
 
 echo ""
-echo "✅ Done."
+echo "   Done."
 echo "   Deleted from logs/:      $deleted_logs"
 echo "   Deleted from workspaces: $deleted_ws"
 echo "   Not found in logs/:      $skipped"
