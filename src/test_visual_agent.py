@@ -175,9 +175,9 @@ def run_standalone_visual_test(ground_truth_instruction, project_dir=None, start
 
 
 if __name__ == "__main__":
-    PROJECT_DIR = r"E:\Agent_work\src\experiment_results\workspaces\000002_P-RAM"
+    PROJECT_DIR = r"path"
     START_CMD = "npm run dev"
-    JSONL_FILE_PATH = r"E:\Agent_work\src\data_generation\test_mini.jsonl"
+    JSONL_FILE_PATH = r"path"
     TEST_DATA_INDEX = 0
 
     try:
