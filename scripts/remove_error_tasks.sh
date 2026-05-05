@@ -39,7 +39,7 @@ for task_dir in "$ERROR_LOGS_DIR"/*/; do
 
     if [ -d "$log_target" ]; then
         rm -rf "$log_target"
-        echo "  🗑️  logs/$task_id"
+        echo "  logs/$task_id"
         deleted_logs=$((deleted_logs + 1))
     else
         skipped=$((skipped + 1))
