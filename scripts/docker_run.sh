@@ -15,9 +15,5 @@ docker run -it --rm \
   -v "${PROJECT_PATH}/experiment_results:/app/experiment_results" \
   -v "${PROJECT_PATH}/.env:/app/.env" \
   -v "${PROJECT_PATH}/config.yaml:/app/config.yaml" \
-  -v "${PROJECT_PATH}/config1.yaml:/app/config1.yaml" \
-  -v "${PROJECT_PATH}/config2.yaml:/app/config2.yaml" \
-  -v "${PROJECT_PATH}/config3.yaml:/app/config3.yaml" \
-  -v "${PROJECT_PATH}/config4.yaml:/app/config4.yaml" \
   --entrypoint /bin/bash \
   interactweb-bench:v1.0
