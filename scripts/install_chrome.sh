@@ -6,7 +6,7 @@ apt-get install -y wget gnupg ca-certificates unzip
 wget -qO- https://dl.google.com/linux/linux_signing_key.pub \
   | gpg --dearmor -o /usr/share/keyrings/google.gpg
 
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google.gpg] \
+echo "deb [arch=amd64 signed-by=] \
   https://dl.google.com/linux/chrome/deb/ stable main" \
   > /etc/apt/sources.list.d/google-chrome.list
 
